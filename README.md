@@ -50,7 +50,17 @@
 
 -'git push origen master' # Envia los cambios hacia el repositorio remoto.
 
--'' #
+-'git tag -a v<numversion> -m <mensaje> # Crear un tag para la version del proyecto.
+
+-'git tag -a v<numversion> -m <mensaje> <idcommit>' # Añadir commit a tags de la version del proyecto.
+
+-'git push origin v<numversion>' #Enviar al repositorio remoto el tag creado.
+
+-'git push origin --tags' # Subir todos los tags al repositorio remoto.
+
+-'git fetch origin' # Bajar los cambios del repositorio remoto a la rama oculta de origin/master.
+
+-'git merge origin/master' #Combinar el commit del equipo con el tuyo.
 
 -'' #
 
@@ -58,6 +68,13 @@
 
 -'' #
 
--'' #
+##Comentarios adicionales
 
--'' #
+Issues # Crear tareas por realizar para el proyecto en estilo foro.
+
+Milestone # Crear un Issue para el proyecto y asignar un milestone con fechas.
+
+Labels # Asignar una etiqueta descriptiva al Issues.
+
+
+
