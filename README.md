@@ -38,3 +38,26 @@
   
 -'git branch -D <nombrerama>' #Situarse en otra rama valida, con este comando se eliminara la rama que se le indique. 
 
+-'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' # Token HTTP Aaron Diaz
+
+-'git clone <urlrepositorio> ' # Se clonara el proyecto indicado en nuestra computadora local, en el pasword indicar el token si es por HTTPS.
+
+-'git remote add origin <urlrepositorio> ' # Indica que nuestro proyecto local y nuestro proyecto remoto en la url son los mismos.
+
+-'git remote -v' # Verifica si los proyectos estan correctamnete conectados.
+
+-'git remote remove origin' # Elimina la conexion entre el poryecto local y remoto que este en ese momento.
+
+-'git push origen master' # Envia los cambios hacia el repositorio remoto.
+
+-'' #
+
+-'' #
+
+-'' #
+
+-'' #
+
+-'' #
+
+-'' #
