@@ -62,13 +62,14 @@
 
 -'git merge origin/master' #Combinar el commit del equipo con el tuyo.
 
--'' #
+-'ssh -keygen' # Situarse en donde quieres instalar la llave SSH.
+
 
 -'' #
 
 -'' #
 
-##Comentarios adicionales
+###Comentarios adicionales
 
 Issues # Crear tareas por realizar para el proyecto en estilo foro.
 
@@ -76,5 +77,6 @@ Milestone # Crear un Issue para el proyecto y asignar un milestone con fechas.
 
 Labels # Asignar una etiqueta descriptiva al Issues.
 
+Intalacion de llave SSH #  -https://www.youtube.com/watch?v=Q5kQmlslOwA&list=PL9xYXqvLX2kMUrXTvDY6GI2hgacfy0rId&index=9
 
-
+Rebase # Fusiona las ramas en una sola linea copiando los commits en una sola linea.
