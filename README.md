@@ -26,6 +26,8 @@
   
 -'git reset --hard <hashdelcommit>' # Borra el commit "Stating Area" y tambien el codigo "Working Area". 
   
+-'git reset HEAD~1' # Regresa los cambios del ultimo commit de la rama actual al stage area (de color rojo en a consola).
+  
 -'git branch' # Nos lista las ramas disponibles, y marca en la que estamos alojados actualmente. 
   
 -'git branch <nombrerama>' # Nos crea una rama nueva. 
